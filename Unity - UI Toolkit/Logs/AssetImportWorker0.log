@@ -1,0 +1,2416 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.21f1 (f2d5d3c59f8c) revision 15914451'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22621.1555; Version 2009; 64bit' Language: 'en' Physical Memory: 15610 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Frank/Desktop/Project 1 Unity/Tutorials/Unity - UI Toolkit
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50295
+Successfully changed project path to: C:/Users/Frank/Desktop/Project 1 Unity/Tutorials/Unity - UI Toolkit
+C:/Users/Frank/Desktop/Project 1 Unity/Tutorials/Unity - UI Toolkit
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 198.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.21f1 (f2d5d3c59f8c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Frank/Desktop/Project 1 Unity/Tutorials/Unity - UI Toolkit/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3118
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002453 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 128.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.359 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1359ms)
+		BeginReloadAssembly (58ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (506ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006523 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Multiple scripted importers are targeting the extension 'uxml' and have all been rejected: UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'uss' and have all been rejected: UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'tss' and have all been rejected: UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <b5226d7672da4aeaa36d32bf1166a63b>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000ae] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 131.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeDropdownFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DropdownUtility.RegisterMakeDropdownFunc (System.Func`1[TResult] makeClient) [0x00017] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.EditorMenuExtensions.RegisterEditorDropdown () [0x0000a] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.467 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1468ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1267ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (603ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (132ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.9 MB.
+System memory in use after: 146.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 4600.
+Total: 7.794500 ms (FindLiveObjects: 0.596800 ms CreateObjectMapping: 0.315600 ms MarkObjects: 6.769300 ms  DeleteObjects: 0.111000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/UI/Inventory/Inventory.uxml
+  artifactKey: Guid(ba404ab8726adf64984a4a76f4d2c6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Inventory/Inventory.uxml using Guid(ba404ab8726adf64984a4a76f4d2c6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(ba404ab8726adf64984a4a76f4d2c6ef) Importer(-1,00000000000000000000000000000000), Assets/UI/Inventory/Inventory.uxml from editor
+Resuming Guid(ba404ab8726adf64984a4a76f4d2c6ef) Importer(-1,00000000000000000000000000000000) -> 513f434a682842c8ee65b79ff9bdc5e7 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(ba404ab8726adf64984a4a76f4d2c6ef) Importer(-1,00000000000000000000000000000000), Assets/UI/Inventory/Inventory.uxml from editor
+Resuming Guid(ba404ab8726adf64984a4a76f4d2c6ef) Importer(-1,00000000000000000000000000000000) -> 513f434a682842c8ee65b79ff9bdc5e7 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '7fcdaef7b4d7589f4cd15c6b54767885') in 0.751693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.812055 seconds.
+  path: Assets/CombatSystem
+  artifactKey: Guid(b0b43a003eadf994fa613da3a2c61e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem using Guid(b0b43a003eadf994fa613da3a2c61e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96532f055b2cd1b6fa46d5f879f093a6') in 0.009296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.580474 seconds.
+  path: Assets/CombatSystem/Scripts
+  artifactKey: Guid(e2cd5873f032f37488ac1923d76e9114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts using Guid(e2cd5873f032f37488ac1923d76e9114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91fc3c2e3d85c5f67500d58280fde34') in 0.008999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.145412 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime
+  artifactKey: Guid(2a00e8a82c597b7499443ba81016a6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime using Guid(2a00e8a82c597b7499443ba81016a6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4534cd022cf05e4379c1aef4c636d1ad') in 0.009288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.492114 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI
+  artifactKey: Guid(6ee1b89e4199665468eab0eb0aec6820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI using Guid(6ee1b89e4199665468eab0eb0aec6820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0732653a6bab93d6b1587378386f392') in 0.008820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.553613 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml
+  artifactKey: Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml using Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b13ef9d53058b0a80291c2e872d30cdc 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b13ef9d53058b0a80291c2e872d30cdc 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '097c7fce8fee2a6bd72fe202206edecc') in 0.011156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 144.123587 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml
+  artifactKey: Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml using Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b13ef9d53058b0a80291c2e872d30cdc 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b13ef9d53058b0a80291c2e872d30cdc 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '097c7fce8fee2a6bd72fe202206edecc') in 0.006167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.902155 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml
+  artifactKey: Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml using Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b13ef9d53058b0a80291c2e872d30cdc 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b13ef9d53058b0a80291c2e872d30cdc 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '097c7fce8fee2a6bd72fe202206edecc') in 0.004331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.484317 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml
+  artifactKey: Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml using Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> e022f94981efbc96a2ca4131d09d045c 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> e022f94981efbc96a2ca4131d09d045c 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '2a85a8560723a926e60fc848bcca7cea') in 0.005724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.311369 seconds.
+  path: Assets/CombatSystem/Scripts/HealthBar.uss
+  artifactKey: Guid(38fc5b5e100acee47b26924e73690ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/HealthBar.uss using Guid(38fc5b5e100acee47b26924e73690ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/HealthBar.uss from editor
+Resuming Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000) -> f7f86a9964b6309c7f03a41f98bbcb44 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/HealthBar.uss from editor
+Resuming Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000) -> f7f86a9964b6309c7f03a41f98bbcb44 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '9fbd279fcce68f63dcd590b00361a274') in 0.006723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.040373 seconds.
+  path: Assets/CombatSystem/Scripts/HealthBar.uss
+  artifactKey: Guid(38fc5b5e100acee47b26924e73690ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/HealthBar.uss using Guid(38fc5b5e100acee47b26924e73690ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/HealthBar.uss from editor
+Resuming Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000) -> 1a70b4e44224ff6d03c7d9de98d7083e 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/HealthBar.uss from editor
+Resuming Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000) -> 1a70b4e44224ff6d03c7d9de98d7083e 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '725d2c15821674e12c454d8e872275fc') in 0.005306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.097609 seconds.
+  path: Assets/CombatSystem/Scripts/HealthBar.uss
+  artifactKey: Guid(38fc5b5e100acee47b26924e73690ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/HealthBar.uss using Guid(38fc5b5e100acee47b26924e73690ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/HealthBar.uss from editor
+Resuming Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000) -> 18e395d4ff379ff8659b676996d62303 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/HealthBar.uss from editor
+Resuming Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000) -> 18e395d4ff379ff8659b676996d62303 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: 'c2bb732044cdf909cf04d4d7ce0d54de') in 0.005578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.845742 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/Core
+  artifactKey: Guid(bc840219bbbe96842b6c86052bf9fbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/Core using Guid(bc840219bbbe96842b6c86052bf9fbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd572f10f68f54d39916bab76d84f71d7') in 0.011298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.336930 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/Core/IDamageble.cs
+  artifactKey: Guid(db7b09061f9c5714b96903c4a9a47421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/Core/IDamageble.cs using Guid(db7b09061f9c5714b96903c4a9a47421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d90581d37c0b42bead0d5dd6d8569b9') in 0.022618 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008635 seconds.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Multiple scripted importers are targeting the extension 'uxml' and have all been rejected: UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'uss' and have all been rejected: UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'tss' and have all been rejected: UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeDropdownFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DropdownUtility.RegisterMakeDropdownFunc (System.Func`1[TResult] makeClient) [0x00017] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.EditorMenuExtensions.RegisterEditorDropdown () [0x0000a] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <b5226d7672da4aeaa36d32bf1166a63b>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000ae] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.153 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1153ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (967ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4169 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.8 MB.
+System memory in use after: 145.0 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4603.
+Total: 6.162600 ms (FindLiveObjects: 0.305900 ms CreateObjectMapping: 0.118300 ms MarkObjects: 5.676700 ms  DeleteObjects: 0.061000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 315.973867 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/Core/IDamageble.cs
+  artifactKey: Guid(db7b09061f9c5714b96903c4a9a47421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/Core/IDamageble.cs using Guid(db7b09061f9c5714b96903c4a9a47421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf775dc4facc48cb77fa1dd63ba5c2d') in 0.010144 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007169 seconds.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Multiple scripted importers are targeting the extension 'uxml' and have all been rejected: UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'uss' and have all been rejected: UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'tss' and have all been rejected: UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeDropdownFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DropdownUtility.RegisterMakeDropdownFunc (System.Func`1[TResult] makeClient) [0x00017] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.EditorMenuExtensions.RegisterEditorDropdown () [0x0000a] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <b5226d7672da4aeaa36d32bf1166a63b>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000ae] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.143 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1144ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (960ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (276ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4169 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.8 MB.
+System memory in use after: 145.1 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4605.
+Total: 7.101100 ms (FindLiveObjects: 0.425100 ms CreateObjectMapping: 0.243400 ms MarkObjects: 6.340000 ms  DeleteObjects: 0.091000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.976507 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml
+  artifactKey: Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml using Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '0d30d0d8eb146b992e9903707a05679d') in 0.010341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.307522 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml
+  artifactKey: Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml using Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '0d30d0d8eb146b992e9903707a05679d') in 0.007205 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009626 seconds.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Multiple scripted importers are targeting the extension 'uxml' and have all been rejected: UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'uss' and have all been rejected: UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'tss' and have all been rejected: UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeDropdownFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DropdownUtility.RegisterMakeDropdownFunc (System.Func`1[TResult] makeClient) [0x00017] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.EditorMenuExtensions.RegisterEditorDropdown () [0x0000a] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <b5226d7672da4aeaa36d32bf1166a63b>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000ae] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.265 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1265ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1057ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (475ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.9 MB.
+System memory in use after: 145.1 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4608.
+Total: 8.504200 ms (FindLiveObjects: 0.351100 ms CreateObjectMapping: 0.157100 ms MarkObjects: 7.930500 ms  DeleteObjects: 0.064400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.937937 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml
+  artifactKey: Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml using Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '0d30d0d8eb146b992e9903707a05679d') in 0.014670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/NewBehaviourScript.cs
+  artifactKey: Guid(f078df534bd1c1840beab9223e708eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/NewBehaviourScript.cs using Guid(f078df534bd1c1840beab9223e708eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad33d5c253e0ab69033033038213ef3') in 0.008762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.609208 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml
+  artifactKey: Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml using Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '0d30d0d8eb146b992e9903707a05679d') in 0.005300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/UI.cs
+  artifactKey: Guid(f078df534bd1c1840beab9223e708eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/UI.cs using Guid(f078df534bd1c1840beab9223e708eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3fc4b740415d3c8ab90f4d68e5ba13') in 0.002959 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006904 seconds.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Multiple scripted importers are targeting the extension 'uxml' and have all been rejected: UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'uss' and have all been rejected: UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'tss' and have all been rejected: UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeDropdownFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DropdownUtility.RegisterMakeDropdownFunc (System.Func`1[TResult] makeClient) [0x00017] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.EditorMenuExtensions.RegisterEditorDropdown () [0x0000a] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <b5226d7672da4aeaa36d32bf1166a63b>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000ae] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.267 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1267ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1082ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (402ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (428ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.9 MB.
+System memory in use after: 145.2 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4610.
+Total: 8.491300 ms (FindLiveObjects: 0.356200 ms CreateObjectMapping: 0.269100 ms MarkObjects: 7.796200 ms  DeleteObjects: 0.068500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.786277 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml
+  artifactKey: Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml using Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '0d30d0d8eb146b992e9903707a05679d') in 0.011364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.953349 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml
+  artifactKey: Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml using Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '0d30d0d8eb146b992e9903707a05679d') in 0.005337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003498 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/UI.cs
+  artifactKey: Guid(f078df534bd1c1840beab9223e708eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/UI.cs using Guid(f078df534bd1c1840beab9223e708eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df3bd9338e388ef5277991792ba1434') in 0.002956 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006469 seconds.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Multiple scripted importers are targeting the extension 'uxml' and have all been rejected: UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'uss' and have all been rejected: UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'tss' and have all been rejected: UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeDropdownFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DropdownUtility.RegisterMakeDropdownFunc (System.Func`1[TResult] makeClient) [0x00017] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.EditorMenuExtensions.RegisterEditorDropdown () [0x0000a] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <b5226d7672da4aeaa36d32bf1166a63b>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000ae] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.198 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1199ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1004ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (425ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (276ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.9 MB.
+System memory in use after: 145.2 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4612.
+Total: 6.703900 ms (FindLiveObjects: 0.306800 ms CreateObjectMapping: 0.118300 ms MarkObjects: 6.203400 ms  DeleteObjects: 0.074600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.433308 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml
+  artifactKey: Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml using Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '0d30d0d8eb146b992e9903707a05679d') in 0.009924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.458364 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml
+  artifactKey: Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml using Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '0d30d0d8eb146b992e9903707a05679d') in 0.007009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthUI.cs
+  artifactKey: Guid(f078df534bd1c1840beab9223e708eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthUI.cs using Guid(f078df534bd1c1840beab9223e708eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd34de9cdc22d69f185cbfb9c330c5d') in 0.013035 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006827 seconds.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Multiple scripted importers are targeting the extension 'uxml' and have all been rejected: UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.UIElementsViewImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'uss' and have all been rejected: UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.StyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'tss' and have all been rejected: UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll), UnityEditor.UIElements.StyleSheets.ThemeStyleSheetImporter (assembly: C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: A factory for the type Unity.UI.Builder.BuilderPane+UxmlFactory was already registered
+  at UnityEngine.UIElements.VisualElementFactoryRegistry.RegisterFactory (UnityEngine.UIElements.IUxmlFactory factory) [0x0005a] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.UXMLEditorFactories..cctor () [0x0028e] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeDropdownFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DropdownUtility.RegisterMakeDropdownFunc (System.Func`1[TResult] makeClient) [0x00017] in <3d389beb8fbc4cc99098812a324df20c>:0 
+  at UnityEditor.UIElements.EditorMenuExtensions.RegisterEditorDropdown () [0x0000a] in <60f4a7b331a5480aaa94dbc2506830d5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <b5226d7672da4aeaa36d32bf1166a63b>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000ae] in <d04deee419f24e8faf312b86e53e3f07>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.330 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1330ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1122ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (404ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (271ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.0 MB.
+System memory in use after: 145.2 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4614.
+Total: 7.049500 ms (FindLiveObjects: 0.398300 ms CreateObjectMapping: 0.225300 ms MarkObjects: 6.361000 ms  DeleteObjects: 0.063200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.561160 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml
+  artifactKey: Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml using Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '0d30d0d8eb146b992e9903707a05679d') in 0.009626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 671.769881 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml
+  artifactKey: Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml using Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '0d30d0d8eb146b992e9903707a05679d') in 0.006790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthUI.cs
+  artifactKey: Guid(f078df534bd1c1840beab9223e708eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthUI.cs using Guid(f078df534bd1c1840beab9223e708eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af50801babed6bca4a4f53feccc735d8') in 0.003033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.164601 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml
+  artifactKey: Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml using Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/Runtime/UI/HealthBar.uxml from editor
+Resuming Guid(2c07960db14a79e4d81afcd9b2c6d538) Importer(-1,00000000000000000000000000000000) -> b1d48234f03b26b3010ba099e01a7fe3 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '0d30d0d8eb146b992e9903707a05679d') in 0.020379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.050850 seconds.
+  path: Assets/CombatSystem/Scripts/HealthBar.uss
+  artifactKey: Guid(38fc5b5e100acee47b26924e73690ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/HealthBar.uss using Guid(38fc5b5e100acee47b26924e73690ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7513161c0 (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/HealthBar.uss from editor
+Resuming Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000) -> 18e395d4ff379ff8659b676996d62303 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff75132bc02 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7512fe462 (Unity) ResolveArtifactV2
+0x00007ff7512f67d1 (Unity) ProduceArtifactV2
+0x00007ff751290aae (Unity) AssetDatabase::ProduceArtifact
+0x00007ff75127b938 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7513164de (Unity) ImportToObjects
+0x00007ff7513154d8 (Unity) ImportAsset
+0x00007ff7512b3a1f (Unity) AssetImportWorker::Import
+0x00007ff7512d6ad2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff75135d372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff75135f5e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff751362cce (Unity) asio::io_service::run
+0x00007ff7512ff1aa (Unity) RunAssetImportWorkerClientV2
+0x00007ff7512ff200 (Unity) RunAssetImporterV2
+0x00007ff750dff427 (Unity) Application::InitializeProject
+0x00007ff751211a07 (Unity) WinMain
+0x00007ff752d7a222 (Unity) __scrt_common_main_seh
+0x00007ff9556c269d (KERNEL32) BaseThreadInitThunk
+0x00007ff9574ca9f8 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000), Assets/CombatSystem/Scripts/HealthBar.uss from editor
+Resuming Guid(38fc5b5e100acee47b26924e73690ec0) Importer(-1,00000000000000000000000000000000) -> 18e395d4ff379ff8659b676996d62303 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: 'c2bb732044cdf909cf04d4d7ce0d54de') in 0.004463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.282328 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/Core/IDamageable.cs
+  artifactKey: Guid(db7b09061f9c5714b96903c4a9a47421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/Core/IDamageable.cs using Guid(db7b09061f9c5714b96903c4a9a47421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df78093e90735c9b17ed51b150fffb24') in 0.009245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.618603 seconds.
+  path: Assets/CombatSystem/Scripts/Runtime/Core/IDamageable.cs
+  artifactKey: Guid(db7b09061f9c5714b96903c4a9a47421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CombatSystem/Scripts/Runtime/Core/IDamageable.cs using Guid(db7b09061f9c5714b96903c4a9a47421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f169718e34a0e0af9a78f88bc1518e') in 0.002711 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009440 seconds.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIBuilderModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+..\mono\metadata\custom-attrs.c:1273: Could not load type UnityEngine.UIElements.UIDocument, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null while decoding custom attribute: (null) assembly:<unknown assembly> type:UnityEngine.UIElements.UIDocument, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null member:(null) signature:<none>
+
+Crash!!!
+SymInit: Symbol-SearchPath: '.;C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit;C:\Users\Frank\Desktop\Project 1 Unity\Tutorials\Unity - UI Toolkit\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 534, UserName: 'Frank'
+OS-Version: 10.0.0
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Unity.exe:Unity.exe (00007FF74FB50000), size: 81833984 (result: 0), SymType: 'PDB', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Unity_x64.pdb', fileVersion: 2021.1.21.54739
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FF957470000), size: 2179072 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ntdll.dll', fileVersion: 10.0.22621.1485
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FF9556B0000), size: 794624 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\KERNEL32.DLL', fileVersion: 10.0.22621.1485
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FF954A20000), size: 3784704 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\KERNELBASE.dll', fileVersion: 10.0.22621.1555
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FF9548B0000), size: 1466368 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\CRYPT32.dll', fileVersion: 10.0.22621.674
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FF9550F0000), size: 1118208 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ucrtbase.dll', fileVersion: 10.0.22621.608
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FF957080000), size: 1748992 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\USER32.dll', fileVersion: 10.0.22621.1485
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\optix.6.0.0.dll:optix.6.0.0.dll (00007FF922E60000), size: 208896 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\optix.6.0.0.dll', fileVersion: 6.0.0.0
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FF8F58D0000), size: 10215424 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\libfbxsdk.dll', fileVersion: 2020.2.0.0
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\OpenImageDenoise.dll:OpenImageDenoise.dll (00007FF8C6B00000), size: 43806720 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\OpenImageDenoise.dll'
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FF954EE0000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\win32u.dll', fileVersion: 10.0.22621.1555
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FF955780000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\GDI32.dll', fileVersion: 10.0.22621.608
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FF954DC0000), size: 1126400 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\gdi32full.dll', fileVersion: 10.0.22621.1344
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FF8F5790000), size: 1306624 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\umbraoptimizer64.dll'
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FF956260000), size: 712704 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ADVAPI32.dll', fileVersion: 10.0.22621.1485
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FF955DF0000), size: 462848 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\WS2_32.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FF956500000), size: 684032 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcrt.dll', fileVersion: 7.0.22621.608
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FF9565B0000), size: 1142784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\RPCRT4.dll', fileVersion: 10.0.22621.1555
+C:\WINDOWS\System32\WLDAP32.dll:WLDAP32.dll (00007FF955280000), size: 385024 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\WLDAP32.dll', fileVersion: 10.0.22621.1194
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FF9558C0000), size: 671744 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\sechost.dll', fileVersion: 10.0.22621.1555
+C:\WINDOWS\System32\Normaliz.dll:Normaliz.dll (00007FF957380000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\Normaliz.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FF955050000), size: 630784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcp_win.dll', fileVersion: 10.0.22621.608
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\etccompress.dll:etccompress.dll (00007FF8F52B0000), size: 5066752 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\etccompress.dll'
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 6582272 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\FreeImage.dll', fileVersion: 3.18.0.0
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FF8F5100000), size: 1744896 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\ispc_texcomp.dll'
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FF9566D0000), size: 8323072 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHELL32.dll', fileVersion: 10.0.22621.1485
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\tbb.dll:tbb.dll (00007FF8F4590000), size: 413696 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\tbb.dll', fileVersion: 2017.0.2016.1004
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FF955FF0000), size: 385024 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHLWAPI.dll', fileVersion: 10.0.22621.608
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FF9357A0000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll', fileVersion: 14.34.31938.0
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FF956310000), size: 1687552 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ole32.dll', fileVersion: 10.0.22621.608
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FF9552E0000), size: 3706880 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\combase.dll', fileVersion: 10.0.22621.1485
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FF9564B0000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\IMM32.dll', fileVersion: 10.0.22621.1344
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FF955970000), size: 4669440 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SETUPAPI.dll', fileVersion: 10.0.22621.1344
+C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FF8F43F0000), size: 978944 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCR120.dll', fileVersion: 12.0.40664.0
+C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FF8F44E0000), size: 679936 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCP120.dll', fileVersion: 12.0.40664.0
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FF956180000), size: 880640 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\OLEAUT32.dll', fileVersion: 10.0.22621.608
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FF922E50000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\WinPixEventRuntime.dll', fileVersion: 1.0.1812.6001
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FF955210000), size: 438272 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\WINTRUST.dll', fileVersion: 10.0.22621.1485
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FF8D83A0000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\GLU32.dll', fileVersion: 10.0.22621.608
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FF8D9070000), size: 1048576 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\OPENGL32.dll', fileVersion: 10.0.22621.608
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FF94EAC0000), size: 1273856 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINHTTP.dll', fileVersion: 10.0.22621.1485
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FF9533D0000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FF9541D0000), size: 163840 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\bcrypt.dll', fileVersion: 10.0.22621.1344
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FF94D6B0000), size: 212992 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINMM.dll', fileVersion: 10.0.22621.608
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\RadeonImageFilters.dll:RadeonImageFilters.dll (00007FF8F4E90000), size: 2535424 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\RadeonImageFilters.dll', fileVersion: 1.5.1.0
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FF8F4600000), size: 8978432 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\SketchUpAPI.dll', fileVersion: 19.0.753.0
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FF953190000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\HID.DLL', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FF94CE40000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\VERSION.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FF9357C0000), size: 581632 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCP140.dll', fileVersion: 14.34.31938.0
+C:\WINDOWS\SYSTEM32\MSWSOCK.dll:MSWSOCK.dll (00007FF953DE0000), size: 430080 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSWSOCK.dll', fileVersion: 10.0.22621.1
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FF922DD0000), size: 483328 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\SketchUpCommonPreferences.dll', fileVersion: 19.0.753.20342
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FF951C90000), size: 221184 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dxcore.dll', fileVersion: 10.0.22621.608
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FF92D310000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\Secur32.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FF935790000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll', fileVersion: 14.34.31938.0
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FF953B50000), size: 270336 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\SSPICLI.DLL', fileVersion: 10.0.22621.1485
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\OpenRL.dll:OpenRL.dll (00000186C69A0000), size: 12779520 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\OpenRL.dll', fileVersion: 1.5.0.2907
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (000000006A550000), size: 622592 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCP100.dll', fileVersion: 10.0.40219.325
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\embree.dll:embree.dll (00007FF8C5B10000), size: 16711680 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\embree.dll', fileVersion: 2.14.0.0
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (000000006A470000), size: 860160 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCR100.dll', fileVersion: 10.0.40219.325
+C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FF954500000), size: 319488 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\cfgmgr32.DLL', fileVersion: 10.0.22621.1344
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (00000186C75F0000), size: 61440 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\OpenRL_pthread.dll', fileVersion: 2.9.0.0
+C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FF9545B0000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSASN1.dll', fileVersion: 10.0.22621.819
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FF953900000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\kernel.appcore.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FF954F10000), size: 503808 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\bcryptPrimitives.dll', fileVersion: 10.0.22621.1344
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FF951B50000), size: 700416 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\uxtheme.dll', fileVersion: 10.0.22621.608
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FF957280000), size: 987136 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\shcore.dll', fileVersion: 10.0.22621.900
+C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FF9528C0000), size: 9228288 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\windows.storage.dll', fileVersion: 10.0.22621.1485
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FF952780000), size: 1302528 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wintypes.dll', fileVersion: 10.0.22621.1485
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FF9547E0000), size: 135168 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\profapi.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FF955810000), size: 720896 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\clbcatq.dll', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FF94E9C0000), size: 487424 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\netprofm.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FF94D140000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\npmproxy.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FF956170000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\NSI.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FF94D690000), size: 102400 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL', fileVersion: 10.0.22621.1344
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FF94D670000), size: 126976 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL', fileVersion: 10.0.22621.1344
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FF953400000), size: 995328 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\DNSAPI.dll', fileVersion: 10.0.22621.1485
+C:\Program Files\Bonjour\mdnsNSP.dll:mdnsNSP.dll (000000006A900000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Bonjour\mdnsNSP.dll', fileVersion: 3.0.0.10
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FF94D210000), size: 536576 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\fwpuclnt.dll', fileVersion: 10.0.22621.1105
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FF94D900000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\rasadhlp.dll', fileVersion: 10.0.22621.1
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FF8F4360000), size: 552960 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\Tools\astcenc-avx2.dll'
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FF950D00000), size: 2453504 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\d3d11.dll', fileVersion: 10.0.22621.1344
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FF951CF0000), size: 1007616 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dxgi.dll', fileVersion: 10.0.22621.1485
+C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FF94E900000), size: 294912 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll', fileVersion: 10.0.22621.1485
+C:\WINDOWS\System32\DriverStore\FileRepository\nvami.inf_amd64_31d22b1b18d1e932\nvldumdx.dll:nvldumdx.dll (00007FF9492D0000), size: 774144 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nvami.inf_amd64_31d22b1b18d1e932\nvldumdx.dll', fileVersion: 31.0.15.3118
+C:\WINDOWS\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FF94CE00000), size: 204800 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\cryptnet.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\drvstore.dll:drvstore.dll (00007FF94B3F0000), size: 1409024 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\drvstore.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\devobj.dll:devobj.dll (00007FF954550000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\devobj.dll', fileVersion: 10.0.22621.1344
+C:\WINDOWS\SYSTEM32\wldp.dll:wldp.dll (00007FF9540E0000), size: 294912 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wldp.dll', fileVersion: 10.0.22621.1485
+C:\WINDOWS\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FF9542F0000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\cryptbase.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FF955690000), size: 126976 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\imagehlp.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FF954040000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\CRYPTSP.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FF953870000), size: 217088 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\rsaenh.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\System32\DriverStore\FileRepository\nvami.inf_amd64_31d22b1b18d1e932\nvwgf2umx.dll:nvwgf2umx.dll (00007FF93D8F0000), size: 88604672 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nvami.inf_amd64_31d22b1b18d1e932\nvwgf2umx.dll', fileVersion: 31.0.15.3118
+C:\WINDOWS\system32\nvspcap64.dll:nvspcap64.dll (00007FF925880000), size: 2953216 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\nvspcap64.dll', fileVersion: 3.27.0.112
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FF953920000), size: 212992 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ntmarta.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\System32\DriverStore\FileRepository\nvami.inf_amd64_31d22b1b18d1e932\Display.NvContainer\MessageBus.dll:MessageBus.dll (00007FF945CE0000), size: 7565312 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nvami.inf_amd64_31d22b1b18d1e932\Display.NvContainer\MessageBus.dll', fileVersion: 1.22.2758.1620
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FF94CDD0000), size: 65536 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wbem\wbemprox.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FF942D70000), size: 524288 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wbemcomn.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FF948880000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wbem\wbemsvc.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FF9488F0000), size: 1015808 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wbem\fastprox.dll', fileVersion: 10.0.22621.608
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FF92B780000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\amsi.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FF953EE0000), size: 163840 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\USERENV.dll', fileVersion: 10.0.22621.1
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2304.8-0\MpOav.dll:MpOav.dll (00007FF92B670000), size: 503808 (result: 0), SymType: '-exported-', PDB: 'C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2304.8-0\MpOav.dll', fileVersion: 4.18.2304.8
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\cudart64_90.dll:cudart64_90.dll (00007FF93A3E0000), size: 397312 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\cudart64_90.dll', fileVersion: 6.14.11.9000
+C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FF8E4470000), size: 1490944 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\opencl.dll', fileVersion: 3.0.3.0
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\radeonrays.dll:radeonrays.dll (00007FF8F4060000), size: 552960 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\radeonrays.dll'
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FF8F38F0000), size: 7790592 (result: 0), SymType: 'PDB', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\mono-2.0-bdwgc.pdb'
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FF957390000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\PSAPI.DLL', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FF952350000), size: 2285568 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dbghelp.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FF94F540000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.22621.608
+C:\Windows\System32\Windows.System.Launcher.dll:Windows.System.Launcher.dll (00007FF94CFC0000), size: 1265664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.608
+C:\Windows\System32\msvcp110_win.dll:msvcp110_win.dll (00007FF94FDD0000), size: 602112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\windows.staterepositorycore.dll:windows.staterepositorycore.dll (00007FF94CD60000), size: 106496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1344
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22621.608_none_a9444ca7c10bb01d\comctl32.dll:comctl32.dll (00007FF9465F0000), size: 2678784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.22621.608
+C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FF950310000), size: 1769472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.608
+C:\Windows\System32\thumbcache.dll:thumbcache.dll (00007FF9142E0000), size: 450560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\policymanager.dll:policymanager.dll (00007FF94FE70000), size: 675840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1485
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FF954AAFDEC (KERNELBASE) RaiseException
+0x00007FF8F3906025 (mono-2.0-bdwgc) [c:\build\output\unity-technologies\mono\mono\utils\mono-log-common.c:142] mono_log_write_logfile 
+0x00007FF8F38F4D41 (mono-2.0-bdwgc) [c:\build\output\unity-technologies\mono\mono\eglib\goutput.c:131] monoeg_g_log 
+0x00007FF8F390A28A (mono-2.0-bdwgc) [c:\build\output\unity-technologies\mono\mono\utils\mono-error.c:178] mono_error_assert_ok_pos 
+0x00007FF8F3A003BA (mono-2.0-bdwgc) [c:\build\output\unity-technologies\mono\mono\metadata\custom-attrs.c:1275] mono_custom_attrs_construct 
+0x00007FF750950675 (Unity) scripting_custom_attrs_construct
+0x00007FF75092F316 (Unity) AttributeCollectionInfo::AllocAttributesArrayIfNeeded
+0x00007FF750934C48 (Unity) ManagedAttributeManager::GetRequiredComponents
+0x00007FF750927548 (Unity) MonoManager::SetupTypeCache
+0x00007FF75091E0FD (Unity) MonoManager::EndReloadAssembly
+0x00007FF7509252CE (Unity) MonoManager::ReloadAssembly
+0x00007FF7510C9632 (Unity) LoadDomainAndUserAssemblies
+0x00007FF7510C99EC (Unity) LoadUserAssemblies
+0x00007FF7512D63B8 (Unity) <lambda_15c8da1c90a30e86cd2096f929d4dd2f>::operator()
+0x00007FF75135D372 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007FF75135F5E0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007FF751362CCE (Unity) asio::io_service::run
+0x00007FF7512FF1AA (Unity) RunAssetImportWorkerClientV2
+0x00007FF7512FF200 (Unity) RunAssetImporterV2
+0x00007FF750DFF427 (Unity) Application::InitializeProject
+0x00007FF751211A07 (Unity) WinMain
+0x00007FF752D7A222 (Unity) __scrt_common_main_seh
+0x00007FF9556C269D (KERNEL32) BaseThreadInitThunk
+0x00007FF9574CA9F8 (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/Frank/AppData/Local/Temp/Unity/Editor/Crashes
